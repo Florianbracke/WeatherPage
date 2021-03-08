@@ -1,3 +1,25 @@
 body{
     background-color: rgb(234, 255, 255);
 }
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 97, 97);
+    opacity: 0.5;
+
+}
+
+.content{
+    background-color: rgb(11, 138, 28);
+    height: 250px;
+    width: 250px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
