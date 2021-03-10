@@ -12,15 +12,26 @@
 <body>
     
     <div class="container">
-        <div class="content">
+        <div class="contentDay">
             <form action="" >
                 <input type="text" placeholder="search..." id="cityInput">
-                <button id="citySubmit">go </button>
+                <p class="day"></p>
+                <button id="citySubmit"> Today</button>
             </form>          
                 <p class="weatherResult"></p>
                 <p class="weatherDescription"></p>
                 <div class="weatherIcon"></div>
+                <div class="buttonFullWeek"></div>
         </div>
+
+        <div class="contentWeek" style='display: none;'>
+            <p class="dayOne">  </p>
+            <p class="dayTwo">  </p>
+            <p class="dayThree"></p>
+            <p class="dayFour"> </p>
+            <p class="dayFive"> </p>
+        </div>
+        
     </div>
 
 
