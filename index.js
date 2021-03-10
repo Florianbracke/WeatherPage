@@ -20,7 +20,8 @@ const MyFunction = () => {
                 response.json())
 
             .then(data =>
-                 console.log(data));
+                 console.log((data.list[0].main.temp)-273)
+                 );
    
     }); 
 }
