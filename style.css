@@ -8,8 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(13, 97, 97);
-    opacity: 0.5;
-
+    opacity: 0.5
 }
 
 .content{
@@ -30,4 +29,8 @@ body{
 
 form{
     display:flex;
+}
+
+.weatherResult{
+    color: rgb(253, 255, 255);
 }

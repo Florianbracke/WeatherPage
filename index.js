@@ -14,16 +14,21 @@ const MyFunction = () => {
         let api = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
         
         console.log(city);
-
+        
         fetch(api)
             .then(response => 
                 response.json())
 
-            .then(data =>
-                 console.log(data));
-   
-    }); 
-}
+            .then(data => {
 
+                 console.log(data)
+                 console.log()
+                 
+                 document.querySelector(".weatherResult").innerHTML= Math.round((data.list[0].main.temp)-273) + "°C" 
+                 document.querySelector(".weatherDescription").innerHTML= data.list[0].weather[0].description
+                 document.querySelector(".weatherIcon").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
+            }); 
+    })
+}
 MyFunction();
 
