@@ -17,16 +17,13 @@
  Besides that, I prefer a minimalstic view.
  Some icons should be give an easy indication about the weather. 
 
+## I used following sources
+* [openweatherAPI](https://openweathermap.org/api)
 
 ## Result
 
  I am fairly happy with the result. 
- Functionality is good, styling could be better (as always).
- For a actually usefull weather ap, i'd need a more in depth API.
- 
- Dividing into components wasn't actually usefull since I used only one main function.
+ Functionality is good, styling could be better. Really not my cup of tea.
+ Dividing the file into components didn't feel usefull since I used only one main function.
 
-## I used following methods
-
-## I used following sources
-* [openweatherAPI](https://openweathermap.org/api)
+<img src="WeatherAppGif.gif" width="250">
