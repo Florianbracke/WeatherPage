@@ -26,4 +26,4 @@
  Functionality is good, styling could be better. Really not my cup of tea.
  Dividing the file into components didn't feel usefull since I used only one main function.
 
-<img src="WeatherAppDemo.gif" width="350" height="450"/>
+<img src="WeatherAppDemo.gif" width="550" height="550"/>
