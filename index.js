@@ -1,6 +1,6 @@
 const MyFunction = () => {
     
-    document.querySelector(".date").innerHTML = new Date().toLocaleDateString();
+    document.querySelector(".date").innerHTML = new Date().toLocaleDateString() + "<br> <br>";
     
     document.getElementById("citySubmit").addEventListener("click", () => {
         event.preventDefault();
@@ -37,7 +37,7 @@ MyFunction();
             const contentWeek = document.querySelector(".contentWeek")
 
                 if (contentWeek.style.display === 'none') {
-                    contentWeek.style.display = "flex"
+                    contentWeek.style.display = "grid"
                 } else {
                     contentWeek.style.display = "none"
                 }

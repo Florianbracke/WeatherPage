@@ -48,8 +48,24 @@ form{
     height: auto;
     text-align: center;
     
-    flex-direction: row;
+    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
 }
+.dayOne { grid-area: 1 / 1 / 2 / 2; }
+.dayOne { grid-area: 1 / 1 / 2 / 2; }
+.dayTwo { grid-area: 2 / 1 / 3 / 2; }
+.dayThree { grid-area: 3 / 1 / 4 / 2; }
+.dayFour { grid-area: 4 / 1 / 5 / 2; }
+.dayFive { grid-area: 5 / 1 / 6 / 2; }
+.dayOneImg { grid-area: 1 / 2 / 2 / 3; }
+.dayTwoImg { grid-area: 2 / 2 / 3 / 3; }
+.dayThreeImg { grid-area: 3 / 2 / 4 / 3; }
+.dayFourImg { grid-area: 4 / 2 / 5 / 3; }
+.dayFiveImg { grid-area: 5 / 2 / 6 / 3; }
+
 
 .week{
     padding:11px;
