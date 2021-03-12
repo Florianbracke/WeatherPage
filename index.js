@@ -27,16 +27,16 @@ const MyFunction = () => {
                         document.querySelector(".dayOneImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
                         
                         document.querySelector(".dayTwo").innerHTML= Math.round((data.list[8].main.temp)-273) + "°C" + " on " + new Date(new Date().getTime() + 2*86400000).toDateString();
-                        document.querySelector(".dayTwoImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[0].weather[8].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
+                        document.querySelector(".dayTwoImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[8].weather[0].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
 
                         document.querySelector(".dayThree").innerHTML= Math.round((data.list[16].main.temp)-273) + "°C" + " on " + new Date(new Date().getTime() + 3*86400000).toDateString();
-                        document.querySelector(".dayThreeImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[0].weather[16].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
+                        document.querySelector(".dayThreeImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[16].weather[0].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
 
                         document.querySelector(".dayFour").innerHTML= Math.round((data.list[24].main.temp)-273) + "°C" + " on " + new Date(new Date().getTime() + 4*86400000).toDateString();
-                        document.querySelector(".dayFourImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[0].weather[24].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
+                        document.querySelector(".dayFourImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[24].weather[0].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
 
                         document.querySelector(".dayFive").innerHTML= Math.round((data.list[32].main.temp)-273) + "°C" + " on " + new Date(new Date().getTime() + 5*86400000).toDateString();
-                        document.querySelector(".dayFiveImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[0].weather[32].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
+                        document.querySelector(".dayFiveImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[32].weather[0].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
                     }); 
     })
 }
