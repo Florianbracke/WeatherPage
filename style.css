@@ -4,22 +4,29 @@ body{
 
 .container{
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(13, 97, 97);
-    opacity: 0.5
+    opacity: 0.5;
+    Color: rgb(246, 255, 196);
+
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-items: center;
 }
 
 .contentDay{
     background-color: rgb(11, 138, 28);
-    height: 250px;
+    height: 300px;
     width: 250px;
-    text-align: center;
+
     display: flex;
     flex-direction: column;
+
+    text-align: center;
+    justify-self: center;
     align-items: center;
+    justify-content: center;
 }
 
 #citySubmit{
@@ -35,15 +42,16 @@ form{
     color: rgb(253, 255, 255);
 }
 
-#buttonWeek{
-    
-}
 .contentWeek{
-    
     background-color: rgb(53, 179, 69);
-    height: 250px;
     width: 250px;
+    height: auto;
     text-align: center;
     
-    
+    flex-direction: row;
 }
+
+.week{
+    padding:11px;
+}
+

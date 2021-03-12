@@ -11,24 +11,38 @@
 
 <body>
     <div class="container">
+      
         <div class="contentDay">
+              <div class="date"></div>
             <form action="" >
                 <input type="text" placeholder="search..." id="cityInput">
                 <p class="day"></p>
                 <button id="citySubmit"> Today</button>
             </form>          
-                <p class="weatherResult"></p>
+                <p class="weatherResult"> Select a City </p>
                 <p class="weatherDescription"></p>
                 <div class="weatherIcon"></div>
                 <div class="buttonFullWeek"></div>
         </div>
-
+        
         <div class="contentWeek" style='display: none;'>
-            <p class="dayOne">  </p>
-            <p class="dayTwo">  </p>
-            <p class="dayThree"></p>
-            <p class="dayFour"> </p>
-            <p class="dayFive"> </p>
+            
+            <div class="temperatures">
+                <p class="week dayOne"></p>
+                <p class="week dayTwo"></p>
+                <p class="week dayThree"></p>
+                <p class="week dayFour"></p>
+                <p class="week dayFive"></p>
+            </div>
+
+            <div class="icons">
+                <div class="dayOneImg"></div>
+                <div class="dayTwoImg"></div>
+                <div class="dayThreeImg"></div>
+                <div class="dayFourImg"></div>
+                <div class="dayFiveImg"> </div>
+            </div>
+          
         </div>
         
     </div>
