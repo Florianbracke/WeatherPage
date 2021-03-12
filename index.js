@@ -38,9 +38,7 @@ const MyFunction = () => {
                         document.querySelector(".dayFive").innerHTML= Math.round((data.list[32].main.temp)-273) + "°C" + " on " + new Date(new Date().getTime() + 5*86400000).toDateString();
                         document.querySelector(".dayFiveImg").innerHTML= "<img src='" + `http://openweathermap.org/img/w/${data.list[0].weather[32].icon}.png`+"'" + "style='width: 80px;' alt='Icon'></img>"
                     }); 
-            
     })
-    
 }
 
     const weekWeatherDisplay = () => {
