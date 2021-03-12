@@ -20,7 +20,12 @@
 
 ## Result
 
+ I am fairly happy with the result. 
+ Functionality is good, styling could be better (as always).
+ For a actually usefull weather ap, i'd need a more in depth API.
  
+ Dividing into components wasn't actually usefull since I used only one main function.
+
 ## I used following methods
 
 ## I used following sources

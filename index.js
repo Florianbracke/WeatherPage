@@ -8,7 +8,7 @@ const MyFunction = () => {
            // api variables
         let city= document.getElementById("cityInput").value;
         const apiKey ='c78f9fadb172b531db5fe1fd50eafa7f'; 
-        let api = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
+        let api = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
 
 
         fetch(api)
